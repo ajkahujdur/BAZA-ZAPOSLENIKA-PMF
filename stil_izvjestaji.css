@@ -1,0 +1,161 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color:RGB(245,245,245);
+}
+#zaglavlje{
+	position:relative;
+	width:100%;
+	padding-bottom:0.7%;
+	background-color:RGB(240,240,240);
+	border-bottom:RGB(210,210,210) solid 0.1px;
+}
+#zaglavlje ul{
+	text-align:right;
+	padding-top:2%;
+	padding-right:3%;
+	padding-bottom:0;
+	margin-bottom:-0.5%;
+	}
+#zaglavlje ul li{
+	display:inline;
+	padding-right:2%;
+	}
+#zaglavlje ul li a{
+	color:RGB(89,184,232);
+	text-decoration:none;
+	font-weight:500;
+	}
+#lijeviDio{
+	position:absolute;
+	width:50%;
+	border-right:1px solid RGB(200,200,200);
+	height:120%;
+	}
+#lijeviDio h1{
+	color:RGB(89,184,232);
+	text-align:center;
+	}
+#desniDio{
+	position:absolute;
+	width:50%;
+	left:50%;
+	height:100%;
+	}
+#tabelaIzvjestajiNaucnihRadova{
+	position:relative;
+	width:90%;
+	left:5%;
+	}
+input[type=submit] {
+    width:100%;
+	padding:2%;
+	font-size:16px;
+	background-color:rgb(220,220,220);
+	border:1px solid RGB(150,150,150);
+	border-radius:0.7em;
+}
+input[type=submit]:hover{
+	cursor:pointer;
+	background-color:RGB(200,200,200);
+	}
+input[type=button] {
+    width:100%;
+	height:100%;
+	padding:2%;
+	font-size:16px;
+	background-color:rgb(220,220,220);
+	border:1px solid RGB(150,150,150);
+	border-radius:0.7em;
+}
+#podnozje{
+	bottom:0px;
+	position:fixed;
+	width:100%;
+	height:4%;
+	padding:0.5%;
+	background-color:RGB(240,240,240);
+	border-top:RGB(210,210,210) solid 0.1px;
+}
+#podnozje h4{
+	color:RGB(89,184,232);
+	font-size:12px;
+	font-weight:600;
+	text-align:center;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	}
+	
+#podnozje h5{
+	color:RGB(89,184,232);
+	font-size:9px;
+	text-align:center;
+	letter-spacing:1px;
+	}
+.izvjestaji{
+	position:absolute;
+	top:5%;
+	left:10%;
+	width:80%;
+	}
+.izvjestaji td{
+	border:1px solid gray;
+	padding:1%;}
+	
+.izvjestaji th{
+	border:1px solid gray;
+	padding:1%;}
+#naucniRadoviNaslov{
+	position:absolute;
+	top:1%;
+	left:10%;
+	width:30%;
+	}
+#knjigeNaslov{
+	position:absolute;
+	top:1%;
+	left:60%;
+	width:30%;
+	}
+#projektiNaslov{
+	position:absolute;
+	top:30%;
+	left:60%;
+	width:30%;
+	}
+#akademskaZvanjaNaslov{
+	position:absolute;
+	top:28%;
+	left:10%;
+	width:30%;
+	}
+#tabelaIzvjestajiNaucnihRadova{
+	position:absolute;
+	top:6%;
+	left:2%;
+	width:45%;
+	}
+#tabelaIzvjestajiKnjiga{
+	position:absolute;
+	top:6%;
+	left:53%;
+	width:45%;
+	}
+#tabelaIzvjestajAkademskihZvanja{
+	position:absolute;
+	top:38%;
+	left:2%;
+	width:45%;
+	}
+#tabelaIzvjestajiProjekti{
+	position:absolute;
+	top:38%;
+	left:53%;
+	width:45%;
+	}
+
+

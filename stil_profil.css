@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color:RGB(245,245,245);
+}
+#zaglavlje{
+	position:relative;
+	width:100%;
+	padding-bottom:0.7%;
+	background-color:RGB(240,240,240);
+	border-bottom:RGB(210,210,210) solid 0.1px;
+}
+#zaglavlje ul{
+	text-align:right;
+	padding-top:2%;
+	padding-right:3%;
+	padding-bottom:0;
+	margin-bottom:-0.5%;
+	}
+#zaglavlje ul li{
+	display:inline;
+	padding-right:2%;
+	}
+#zaglavlje ul li a{
+	color:RGB(89,184,232);
+	text-decoration:none;
+	font-weight:500;
+	}
+
+#slika{
+	/*background-color:#CCC;*/
+	position:absolute;
+	height:30%;
+	width:15%;
+	bottom:65%;
+	left:3%;
+	top:13%;
+	border:RGB(89,184,232) solid 2px;}
+	
+#osnovniPodaci{
+	position:absolute;
+	height:50%;
+	left:21%;
+	bottom:48%;
+	top:11%;
+	width:auto;
+	
+}
+
+#tabelaOsnovneInformacije th,td{
+	padding:2%;
+	text-align:left;
+	color:RGB(110,110,110);
+	}
+
+#tabelaObrazovanje{
+	margin-top:0%;
+	margin-left:15%;
+	width:80%;
+}
+
+#tabelaObrazovanje td{
+	padding:2%;
+	}
+#tabelaObrazovanje th{
+	color:RGB(110,110,110);
+	text-align:left;
+	}
+#dodatniPodaci{
+	position:absolute;
+	height:100%;
+	top:59%;
+	left:-2%;
+	width:47%;
+}
+#dodatniPodaci ul{
+	width:100%;
+	padding:1%;
+	display:block;
+	margin:0;
+	}
+#dodatniPodaci ul li{
+	list-style:none;
+	display:block;
+	width:100%;
+	height:auto;
+	border-bottom: 2px solid #fff;
+	color:#fff;
+	font-family:helvetica;
+	font-size:18px;
+	padding:2.5%;
+	text-align:center;
+	background-color:RGB(89,184,232);
+	-webkit-transition:all .9s ease;
+	-moz-transition:all .9s ease;
+	-ms-transition:all .9s ease;
+	transition:all .9s ease;
+	}
+#dodatniPodaci li:hover{
+	background:#A1C1BF;
+	width:95%;
+	cursor:pointer;
+	}
+
+#podnozje{
+	bottom:0px;
+	position:fixed;
+	width:100%;
+	height:4%;
+	padding:0.5%;
+	background-color:RGB(240,240,240);
+	border-top:RGB(210,210,210) solid 0.1px;
+}
+#podnozje h4{
+	color:RGB(89,184,232);
+	font-size:12px;
+	font-weight:600;
+	text-align:center;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	}
+	
+#podnozje h5{
+	color:RGB(89,184,232);
+	font-size:9px;
+	text-align:center;
+	letter-spacing:1px;
+	}
+
+#desniDio{
+	position:absolute;
+	width:50%;
+	height:100%;
+	left:50%;
+	border-left:2px solid RGB(200,200,200);
+	}
+
+#tabelaOstaleInformacije{
+	width:80%;
+	position:absolute;
+	top:0%;
+	left:15%;
+	}
+#tabelaOstaleInformacije th,td{
+	padding:2%;
+	text-align:left;
+	color:RGB(110,110,110);
+	}
+
+.dugmeSpremi{
+	padding:1%;
+	background-color:RGB(89,184,232);
+	color:white;
+	letter-spacing:3px;
+	border-radius:0.4em;
+	border-color:RGB(89,184,232);
+	}
+#dugmeUcitaj{
+	position:absolute;
+	top:49%;
+	left:3%;
+	background-color:RGB(170,170,170);
+	color:white;
+	letter-spacing:1px;
+	border-radius:0.2em;
+	border-color:RGB(170,170,170);
+	padding:0.3%;
+	}
+#ucitajFile{
+	position:absolute;
+	top:45%;
+	left:3%;
+	background-color:rgb(200,200,200);
+	color:white;
+	border-radius:0.4em;
+	border-color:RGB(89,184,232);
+	width:15%;
+	}
+#iskustva{
+	position:absolute;
+	top:2%;
+	left:2%;
+	width:20%;
+	right:20%;
+	background-color:RGB(89,184,232);
+	border-bottom-right-radius:1em;
+	padding:1.5%;
+	}
+#mentorstva{
+	position:absolute;
+	top:2%;
+	left:27%;
+	width:20%;
+	right:20%;
+	background-color:RGB(89,184,232);
+	border-bottom-right-radius:1em;
+	padding:1.5%;
+}
+#radovi{
+	position:absolute;
+	top:2%;
+	left:2%;
+	width:20%;
+	right:20%;
+	background-color:RGB(89,184,232);
+	border-bottom-right-radius:1em;
+	padding:1.5%;
+}
+
+#knjige{
+	position:absolute;
+	top:2%;
+	left:27%;
+	width:20%;
+	right:20%;
+	background-color:RGB(89,184,232);
+	border-bottom-right-radius:1em;
+	padding:1.5%;	
+	}
+	
+#projekti{
+	position:absolute;
+	top:2%;
+	left:52%;
+	width:20%;
+	right:20%;
+	background-color:RGB(89,184,232);
+	border-bottom-right-radius:1em;
+	padding:1.5%;
+	}
+.linkovi{
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+	letter-spacing:1px;
+	}
+
+.novoDugme{
+	position:absolute;
+	background-color:RGB(89,184,232);
+	color:white;
+	top:0%;
+	left:89%;
+	padding:0.7%;
+	letter-spacing:1px;
+	border-radius:0.5em;
+	}
+.spremiUnesenoDugme{
+	position:absolute;
+	background-color:RGB(89,184,232);
+	color:white;
+	top:0%;
+	left:78%;
+	padding:0.7%;
+	letter-spacing:1px;
+	border-radius:0.5em;
+	}
+.tabele{
+	position:absolute;
+	width:95%;
+	left:3%;
+	top:5.5%;
+	}
+.tabele td{
+	border:1px solid black;
+	padding:1%;
+	}
+.tabele th{
+	border:1px solid black;
+	padding:1%;
+	}
+	
+#gornjiDioDesnogDijela{
+	position:absolute;
+	width:100%;
+	height:10%;
+	top:0%;
+	}
+#donjiDioDesnogDijela{
+	position:absolute;
+	width:100%;
+	height:90%;
+	top:10%;
+	}
+

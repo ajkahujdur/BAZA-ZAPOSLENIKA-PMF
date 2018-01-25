@@ -1,0 +1,161 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color:RGB(245,245,245);
+}
+
+/*okvir*/
+#okvirPrijava{
+	position:absolute;
+	top:10%;
+	right:30%;
+	background-color:white;
+	width:40%;
+	height:77%;
+	border:RGB(89,184,232) solid 2px;
+	padding:1%;
+	border-radius:0.5em;
+	}
+#okvirPrijava h3{
+	color:RGB(89,184,232);
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:125%;
+	line-height:140%;
+	}
+	
+/*logo*/
+#logo{
+	position:absolute;
+	width:63%;
+	height:46%;
+	right:17%;
+	top:13%;
+	}
+	
+/*okviri vidljivi pri prijavi*/
+#okvirKorisnickoIme{
+	position:absolute;
+	top:58%;
+	/*border:RGB(89,184,232) solid 0.6px;*/
+	left:32.5%;
+	width:35%;
+	height:4%;
+	
+}
+#okvirLozinka{
+	position:absolute;
+	top:64%;
+	/*border:RGB(89,184,232) solid 0.6px;*/
+	left:32.5%;
+	width:35%;
+	height:4%;
+	}
+#dugmePrijava{
+	position:absolute;
+	top:74%;
+	left:39%;
+	padding:1%;
+	background-color:RGB(89,184,232);
+	color:white;
+	letter-spacing:3px;
+	border-radius:0.4em;
+	border-color:RGB(89,184,232);
+}
+#registracija{
+	position:absolute;
+	top:85%;
+	left:27.5%;
+	}
+#registracija h5{
+	color:#666;
+	font-size:13px;
+	font-weight:200;
+	}
+#registracija a{
+	position:relative;
+	left:-6%;
+	color:RGB(89,184,232);
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:1px;
+	}
+
+/*okviri vidljivi pri registraciji*/
+#okvirIme{
+	position:absolute;
+	top:59%;
+	left:32.5%;
+	width:35%;
+	height:4%;
+	}
+#okvirPrezime{
+	position:absolute;
+	top:65%;
+	left:32.5%;
+	width:35%;
+	height:4%;
+	}
+#ponovljenaLozinka{
+	position:absolute;
+	top:83%;
+	width:35%;
+	left:32.5%;
+	height:4%;
+	}
+#okvirEmail{
+	position:absolute;
+	top:89%;
+	width:35%;
+	left:32.5%;
+	height:4%;
+	}
+#dugmeRegistracija{
+	position:absolute;
+	top:94.3%;
+	left:41%;
+	padding:0.5%;
+	background-color:RGB(89,184,232);
+	color:white;
+	letter-spacing:1px;
+	border-radius:0.4em;
+	border-color:RGB(89,184,232);
+	}
+
+/*klase*/
+
+.textInputi{
+	color:gray;
+	height:100%;
+	width:99%;
+	border:1px solid RGB(89,184,232);
+	
+}
+.textInputi:focus{
+	border:RGB(89,184,232) solid 1px;
+	background-color:RGB(230,230,230);
+	}
+.greska{
+	color:#C03;
+	font-size:13.5px;
+	text-align:center;
+	position:absolute;
+	top:61.5%;
+	width:45%;
+	left:27.5%;
+	}
+#greskaJavi{
+	position:absolute;
+	top:54%;
+	left:28%;
+	color:red;
+	}
+
+
+
+

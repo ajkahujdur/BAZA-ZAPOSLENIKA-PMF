@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color:RGB(245,245,245);
+}
+#zaglavlje{
+	position:relative;
+	width:100%;
+	padding-bottom:0.7%;
+	background-color:RGB(240,240,240);
+	border-bottom:RGB(210,210,210) solid 0.1px;
+}
+#zaglavlje ul{
+	text-align:right;
+	padding-top:2%;
+	padding-right:3%;
+	padding-bottom:0;
+	margin-bottom:-0.5%;
+	}
+#zaglavlje ul li{
+	display:inline;
+	padding-right:2%;
+	}
+#zaglavlje ul li a{
+	color:RGB(89,184,232);
+	text-decoration:none;
+	font-weight:500;
+	}
+	
+#okvirPomoc{
+	position:absolute;
+	top:10%;
+	right:30%;
+	background-color:white;
+	width:40%;
+	height:77%;
+	border:RGB(89,184,232) solid 2px;
+	padding:1%;
+	border-radius:0.5em;
+	background-image:url(dws%2029.06%20stoo/wre.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:35% 50%;
+	background-attachment:fixed;
+	}
+	
+#okvirPomoc h3{
+	padding-top:5%;
+	color:RGB(89,184,232);
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:125%;
+	line-height:140%;
+	}
+	
+#okvirTekst{
+	padding-top:70%;
+	letter-spacing:1px;	
+	}
+#okvirTekst h5{
+	color:#898989;
+	text-align:center;
+	letter-spacing:1px;
+	line-height:200%;
+	top:50%;
+	bottom:60%;
+	
+}
+#okvirTekst p{
+	text-align:center;
+}
+#logo{
+	position:absolute;
+	width:40%;
+	height:40%;
+	right:12.5%;
+	top:20%;
+	}
